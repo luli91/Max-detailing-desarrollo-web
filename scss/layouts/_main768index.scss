@@ -1,0 +1,115 @@
+@media only screen and (max-width: 768px){
+    .banner{
+        .text{
+            h1{
+                font-size: 50px;
+            }
+            .btn{
+                width: 200px;
+                height: 55px;
+            }
+        }
+    }
+    .brand-logo{
+        .brand-logo-inner{
+            img{
+                height: 8rem;
+                width: 8rem;
+            }
+        }
+    }
+    .sec1{
+        .sec1-inner{
+            .text-left{
+                h3{
+                    font-size: 16px;
+                    padding:5px;
+                }
+            }
+            .text-right{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .sec2{
+        .sec2-inner{
+            .img{
+                img{
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+            .text{
+                .text-inner{
+                    margin: 55px 0 0 150px;
+                    &:before{
+                        left: -50px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                    .btn{
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+        &.left-right-sec:nth-child(odd) {
+            .text {
+                .text-inner {
+                    margin: 55px 130px 0 0;
+                }
+            }
+        } 
+    }
+    .sec3{
+        .container{
+            max-width: 750px;
+            .sec3-slider{
+                .slick-prev{
+                    &:before{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .slick-list{
+                    .slick-track{
+                        .item{
+                            img{
+                                width: 250px;
+                                object-fit: initial;
+                            }
+                        }
+                    }
+                }
+                .slick-next{
+                    &:before{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .sec4{
+        .container{
+            max-width: 750px;
+            .sec4-boxes{
+                justify-content: space-around;
+                .box{
+                    width: 30%;
+                    .img{
+                        img{
+                            width: 225px;
+                            height: 240px;
+                            object-fit: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

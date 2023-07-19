@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1024px) {
+    .banner{
+        .text{
+            h1{
+                font-size: 60px;
+            }
+        }
+    }
+    .brand-logo{
+        .brand-logo-inner{
+            img{
+                height: 10rem;
+                width: 10rem;
+            }
+        }
+    }
+    .sec1{
+        .sec1-inner{
+            .text-left{
+                h3{
+                    font-size: 17px;
+                    padding:5px;
+                }
+            }
+            .text-right{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .sec2{
+        .sec2-inner{
+            .img{
+                img{
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+    .sec3{
+        .container{
+            max-width: 950px;
+            .sec3-slider{
+                .slick-prev{
+                    &.slick-arrow{
+                        position: absolute;
+                        top:-125px;
+                        
+                    }
+                    &:before{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .slick-list{
+                    .slick-track{
+                        .item{
+                            img{
+                                width: 317px;
+                                height: 230px;
+                                object-fit: initial;
+                            }
+                        }
+                    }
+                }
+                .slick-next{
+                    top:-124px;
+                    &:before{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+    .sec4{
+        .container{
+            max-width: 950px;
+            .sec4-boxes{
+                justify-content: space-around;
+                .box{
+                    .img{
+                        img{
+                            width: 220px;
+                            height: 245px;
+                            object-fit: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

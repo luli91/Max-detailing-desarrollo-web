@@ -1,0 +1,29 @@
+@media only screen and (max-width: 320px){
+    .sec3{
+        .container{
+            max-width: 300px;
+            .sec3-slider{
+                .slick-list{
+                    .slick-track{
+                        width: 6300px !important;
+                        .item{
+                            width: 300px !important;
+                            img{
+                                width: 300px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec4{
+        .container{
+            max-width: 310px;
+            .box {
+                width: 45%;
+            }
+        }
+        
+    }
+}
